@@ -14,7 +14,7 @@ Exercise:
     pass only those criteria which are needed,
     and not the whole User information as it is
     required now according to typing.
-
+    
 Higher difficulty bonus exercise:
 
     Exclude "type" from filter criteria.
