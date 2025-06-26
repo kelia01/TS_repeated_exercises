@@ -45,3 +45,7 @@ function getArea(shape: Shape): number {
 return shape.length * shape.width;
 }
 
+//Update the function to accept a tuple and destructure it correctly
+function greet([firstName, lastName]: [string, string]): string {
+  return `Hello, ${firstName} ${lastName}`;
+}
