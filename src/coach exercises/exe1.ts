@@ -27,3 +27,21 @@ function printUserInfo(user: User) {
   console.log(`${user.name} (${user.age}) - Admin: ${user.isAdmin}`);
 }
 
+//Fourth
+type Circle = {
+    type: 'circle',
+    radius: number
+}
+type Rectangle = {
+    type: 'rectangle',
+    length: number,
+    width: number
+}
+type Shape =  Circle | Rectangle;
+
+function getArea(shape: Shape): number {
+  if(shape.type === 'circle') 
+    return shape.radius*2;
+return shape.length * shape.width;
+}
+
