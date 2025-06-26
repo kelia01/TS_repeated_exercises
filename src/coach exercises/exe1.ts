@@ -16,3 +16,14 @@ const wrapInArray = <T>(value: T ): T[]=> {
 }
 const result = wrapInArray(42); // number[]
 const result2 = wrapInArray("hello"); // string[]
+
+// Third
+interface User {
+  name: "Alice",
+  age: 30,
+  isAdmin: false,
+};
+function printUserInfo(user: User) {
+  console.log(`${user.name} (${user.age}) - Admin: ${user.isAdmin}`);
+}
+
