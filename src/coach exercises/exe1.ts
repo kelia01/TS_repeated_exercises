@@ -9,3 +9,10 @@ class Logger {
     this.logs = [];
   }
 }
+
+//Second
+const wrapInArray = <T>(value: T ): T[]=> {
+    return [value]
+}
+const result = wrapInArray(42); // number[]
+const result2 = wrapInArray("hello"); // string[]
